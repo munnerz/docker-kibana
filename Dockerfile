@@ -1,6 +1,6 @@
 FROM alpine:3.3
 
-ENV KIBANA_VERSION 5.1.1-linux-x64
+ENV KIBANA_VERSION 5.1.1-linux-x86_64
 
 RUN apk --update add curl && \
     mkdir /opt && \
